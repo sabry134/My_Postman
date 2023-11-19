@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Postman</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <input type="text" id="urlInput" placeholder="Enter URL">
+      <select id="methodSelect">
+        <option value="GET">GET</option>
+        <option value="POST">POST</option>
+        <option value="DELETE">DELETE</option>
+      </select>
+      <input type="text" id="headersInput" placeholder="Headers (Optional)">
+      <textarea id="bodyInput" placeholder="Request Body (Optional)"></textarea>
+      <button onclick="sendRequest()">Send Request</button>
+    </div>
+    <div class="scrollable-content" id="responseContainer"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "my_postman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabry134/My_Postman.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabry134/My_Postman/issues"
+  },
+  "homepage": "https://github.com/sabry134/My_Postman#readme",
+  "dependencies": {
+    "electron": "^27.1.0"
+  }
+}
